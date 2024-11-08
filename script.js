@@ -23,7 +23,7 @@ async function englishJokes() {
     }
     catch(error){
         console.log(`this is error  ${error}`);
-        p.innerText = "Couldn't fetch a joke! , Try again....";
+        joke.innerText = "Couldn't fetch a joke! , Try again....";
     }
 
 
@@ -51,7 +51,7 @@ async function hindiJokes() {
        }
        catch(error){
         console.log(`this is error ${error}`);
-        p.innerText = "Couldn't fetch a joke! , Try again....";
+        joke.innerText = "Couldn't fetch a joke! , Try again....";
        }
 }
 
